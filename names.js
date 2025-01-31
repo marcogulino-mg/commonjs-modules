@@ -8,5 +8,8 @@ function createPerson(name, lastnm) {
   return newPerson;
 }
 
-const person = createPerson("Marco", "Gulino");
-console.log(person);
+// const person = createPerson("Marco", "Gulino");
+// console.log(person);
+
+//Esporto la funzionalità
+module.exports = createPerson;
