@@ -1,11 +1,9 @@
-function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
-    const hobbiesList = [];
-    hobbiesList.push(hobbyOne, hobbyTwo, hobbyThree);
-    return hobbiesList;
+function hobbiesList(hobbyOne, hobbyTwo, hobbyThree) {
+  const newHobbies = [];
+  newHobbies.push(hobbyOne, hobbyTwo, hobbyThree);
+
+  return newHobbies;
 }
 
-// const newHobbies = hobbies("Pescare", "Correre", "Modellismo");
-// console.log(newHobbies);
-
 //Esporto la funzionalità
-module.exports = hobbies;
+module.exports = hobbiesList;

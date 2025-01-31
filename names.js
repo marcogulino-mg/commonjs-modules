@@ -1,15 +1,12 @@
 //Creazione della funzione
-function createPerson(name, lastnm) {
-  newPerson = {
+function nominative(name, lastnm) {
+  newNominative = {
     firstName: name,
     lastName: lastnm,
   };
 
-  return newPerson;
+  return newNominative;
 }
 
-// const person = createPerson("Marco", "Gulino");
-// console.log(person);
-
 //Esporto la funzionalità
-module.exports = createPerson;
+module.exports = nominative;
