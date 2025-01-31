@@ -4,5 +4,8 @@ function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
     return hobbiesList;
 }
 
-const newHobbies = hobbies("Pescare", "Correre", "Modellismo");
-console.log(newHobbies);
+// const newHobbies = hobbies("Pescare", "Correre", "Modellismo");
+// console.log(newHobbies);
+
+//Esporto la funzionalità
+module.exports = hobbies;
